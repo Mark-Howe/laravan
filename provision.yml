@@ -6,6 +6,7 @@
   roles:
     - role: basics
       tags: basics
+    - role: geerlingguy.nodejs
     - role: users
       tags: users
     - role: geerlingguy.ntp

@@ -21,5 +21,6 @@
       - python3-software-properties
       - sudo
       - vim
+      - nodejs
     state: present
   tags: essential-packages

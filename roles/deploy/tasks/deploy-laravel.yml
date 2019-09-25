@@ -8,6 +8,7 @@
 - import_tasks: passport.yml
   when: current_app.passport is defined and current_app.passport == True
 - import_tasks: migrate.yml
+- import_tasks: npm.yml
 - import_tasks: optimize.yml
 - import_tasks: post-deploy.yml
 - import_tasks: finish.yml

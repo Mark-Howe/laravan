@@ -1,0 +1,3 @@
+---
+- name: Build npm for prod
+  shell: npm run prod
