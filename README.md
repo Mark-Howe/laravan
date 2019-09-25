@@ -58,6 +58,9 @@ cd laravan
 ./setup.sh
 ```
 
+The local machine needs to have 'jmespath' installed via pip prior to provisioning.
+```sudo pip install jmespath```
+
 ### 4. Link Machines
 1. Enter the IP addresses of your hosts to the `hosts` file, each under their respective environment. If you created a vagrant machine using `vagrant up` from the laravan directory, its IP address will be `10.10.0.42`.
 
